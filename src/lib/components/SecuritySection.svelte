@@ -12,25 +12,25 @@
                     <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif mb-2">Built for Enterprise</h2>
-                <h2 class="text-4xl md:text-5xl font-serif mb-12">Secure by Design</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-2">Built for Pharma</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-12">HIPAA Compliant</h2>
 
                 <div class="space-y-4 mb-12">
                     <div class="flex items-center gap-3">
                         <Lock size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">No training on your data</span>
+                        <span class="text-sm font-medium">Protected health information security</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Shield size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Modern & secure data practices</span>
+                        <span class="text-sm font-medium">HIPAA & GDPR compliant</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Eye size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">End to end encryption</span>
+                        <span class="text-sm font-medium">End-to-end encryption</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <FileCheck size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Audited & tested</span>
+                        <span class="text-sm font-medium">Regulatory audit trails</span>
                     </div>
                 </div>
 
