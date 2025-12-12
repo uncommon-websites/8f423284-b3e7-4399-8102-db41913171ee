@@ -2,14 +2,14 @@
     const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="bg-white pt-24 pb-12">
+<footer class="bg-white pt-32 pb-16 border-t-4 border-gray-900">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <!-- Top Section -->
-        <div class="flex flex-col md:flex-row justify-between items-start mb-24 gap-12">
-            <div class="max-w-xl">
-                <div class="mb-8">
+        <div class="flex flex-col md:flex-row justify-between items-start mb-32 gap-12">
+            <div class="max-w-2xl">
+                <div class="mb-10">
                     <!-- Logo mark -->
-                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             fill-rule="evenodd"
                             clip-rule="evenodd"
@@ -18,56 +18,56 @@
                         />
                     </svg>
                 </div>
-                <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                    Predict Clinical Trial Success<br />Before You Invest
+                <h2 class="text-5xl md:text-6xl font-bold font-sans text-gray-900 leading-[1.1]">
+                    Predict Clinical Trial Success Before You Invest
                 </h2>
             </div>
             <div>
-                <a href="#demo" class="rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-gray-800 transition-colors inline-block">
+                <a href="#demo" class="bg-gray-900 border-2 border-gray-900 px-8 py-4 text-sm font-bold text-white hover:bg-white hover:text-gray-900 transition-all inline-block uppercase tracking-wide">
                     Schedule Demo
                 </a>
             </div>
         </div>
 
         <!-- Links Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24 border-t border-gray-100 pt-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-12 mb-24 border-t-2 border-gray-900 pt-20">
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Platform</h4>
+                <h4 class="text-xs font-bold font-mono uppercase tracking-widest text-gray-900 mb-8">Platform</h4>
                 <ul class="space-y-4">
-                    <li><a href="#platform" class="text-xs text-gray-600 hover:text-gray-900">Natural RCTs</a></li>
-                    <li><a href="#features" class="text-xs text-gray-600 hover:text-gray-900">Features</a></li>
-                    <li><a href="#security" class="text-xs text-gray-600 hover:text-gray-900">Security</a></li>
+                    <li><a href="#platform" class="text-sm font-medium text-gray-700 hover:text-gray-900">Natural RCTs</a></li>
+                    <li><a href="#features" class="text-sm font-medium text-gray-700 hover:text-gray-900">Features</a></li>
+                    <li><a href="#security" class="text-sm font-medium text-gray-700 hover:text-gray-900">Security</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Company</h4>
+                <h4 class="text-xs font-bold font-mono uppercase tracking-widest text-gray-900 mb-8">Company</h4>
                 <ul class="space-y-4">
-                    <li><a href="#about" class="text-xs text-gray-600 hover:text-gray-900">About</a></li>
-                    <li><a href="#science" class="text-xs text-gray-600 hover:text-gray-900">Science</a></li>
-                    <li><a href="#team" class="text-xs text-gray-600 hover:text-gray-900">Team</a></li>
+                    <li><a href="#about" class="text-sm font-medium text-gray-700 hover:text-gray-900">About</a></li>
+                    <li><a href="#science" class="text-sm font-medium text-gray-700 hover:text-gray-900">Science</a></li>
+                    <li><a href="#team" class="text-sm font-medium text-gray-700 hover:text-gray-900">Team</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Legal</h4>
+                <h4 class="text-xs font-bold font-mono uppercase tracking-widest text-gray-900 mb-8">Legal</h4>
                 <ul class="space-y-4">
-                    <li><a href="#terms" class="text-xs text-gray-600 hover:text-gray-900">Terms of Use</a></li>
-                    <li><a href="#privacy" class="text-xs text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
+                    <li><a href="#terms" class="text-sm font-medium text-gray-700 hover:text-gray-900">Terms of Use</a></li>
+                    <li><a href="#privacy" class="text-sm font-medium text-gray-700 hover:text-gray-900">Privacy Policy</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Contact</h4>
+                <h4 class="text-xs font-bold font-mono uppercase tracking-widest text-gray-900 mb-8">Contact</h4>
                 <ul class="space-y-4">
-                    <li><a href="#demo" class="text-xs text-gray-600 hover:text-gray-900">Schedule Demo</a></li>
-                    <li><a href="#contact" class="text-xs text-gray-600 hover:text-gray-900">Contact Us</a></li>
-                    <li><a href="#linkedin" class="text-xs text-gray-600 hover:text-gray-900">LinkedIn</a></li>
-                    <li><a href="#publications" class="text-xs text-gray-600 hover:text-gray-900">Publications</a></li>
+                    <li><a href="#demo" class="text-sm font-medium text-gray-700 hover:text-gray-900">Schedule Demo</a></li>
+                    <li><a href="#contact" class="text-sm font-medium text-gray-700 hover:text-gray-900">Contact Us</a></li>
+                    <li><a href="#linkedin" class="text-sm font-medium text-gray-700 hover:text-gray-900">LinkedIn</a></li>
+                    <li><a href="#publications" class="text-sm font-medium text-gray-700 hover:text-gray-900">Publications</a></li>
                 </ul>
             </div>
         </div>
 
         <!-- Copyright -->
-        <div class="text-center border-t border-gray-100 pt-8">
-            <p class="text-[10px] font-mono uppercase tracking-widest text-gray-400">
+        <div class="text-center border-t-2 border-gray-900 pt-10">
+            <p class="text-xs font-bold font-mono uppercase tracking-widest text-gray-500">
                 © {currentYear} Pheiron
             </p>
         </div>

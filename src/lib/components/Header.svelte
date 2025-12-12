@@ -2,11 +2,11 @@
   export let active = "Product";
 </script>
 
-<header class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur-sm">
-  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center gap-8">
-      <a href="/" class="flex items-center gap-2">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<header class="sticky top-0 z-50 w-full border-b-4 border-gray-900 bg-white">
+  <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center gap-12">
+      <a href="/" class="flex items-center gap-3">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -14,23 +14,23 @@
             fill="currentColor"
           />
         </svg>
-        <span class="text-2xl font-bold tracking-tight font-sans">Pheiron</span>
+        <span class="text-2xl font-bold tracking-tighter font-sans uppercase">Pheiron</span>
       </a>
       
-      <nav class="hidden md:flex items-center gap-6">
+      <nav class="hidden md:flex items-center gap-8">
         {#each ["Platform", "Science", "Company", "Resources"] as item}
-          <a href="#{item.toLowerCase()}" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="#{item.toLowerCase()}" class="text-sm font-bold text-gray-900 hover:text-primary-600 transition-colors uppercase tracking-wide">
             {item}
           </a>
         {/each}
       </nav>
     </div>
 
-    <div class="flex items-center gap-4">
-      <a href="#contact" class="text-sm font-medium text-gray-900 hover:text-gray-700">
+    <div class="flex items-center gap-6">
+      <a href="#contact" class="text-sm font-bold text-gray-900 hover:text-primary-600 uppercase tracking-wide">
         Contact
       </a>
-      <a href="#demo" class="rounded-full bg-black px-4 py-2 text-sm font-medium text-white hover:bg-gray-800 transition-colors">
+      <a href="#demo" class="bg-gray-900 border-2 border-gray-900 px-6 py-2.5 text-sm font-bold text-white hover:bg-white hover:text-gray-900 transition-all uppercase tracking-wide">
         Schedule Demo
       </a>
     </div>
