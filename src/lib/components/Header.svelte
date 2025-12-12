@@ -18,7 +18,7 @@
       </a>
       
       <nav class="hidden md:flex items-center gap-8">
-        {#each ["Platform", "Science", "Company", "Resources"] as item}
+        {#each ["Science", "Company", "Resources"] as item}
           <a href="#{item.toLowerCase()}" class="text-sm font-bold text-gray-900 hover:text-primary-600 transition-colors uppercase tracking-wide">
             {item}
           </a>
